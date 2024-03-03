@@ -1,0 +1,2 @@
+#!/bin/bash
+curl 'https://api.openweathermap.org/data/2.5/weather?id={2968815}&appid={4db3d59295ebcf7785c91bcf2217e3d0}&units=metric' > "/home/moncef/Downloads/moncef_bouhabel_linux_project/$(date +%Y%m%d%H%M)_data_weather.json"
